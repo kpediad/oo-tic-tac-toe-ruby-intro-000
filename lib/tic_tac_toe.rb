@@ -16,7 +16,7 @@ class TicTacToe
   end
 
   def turn_count
-    @board.count {|place| place == "X" || place == "O"} 
+    @board.count {|place| place == "X" || place == "O"}
   end
 
   def current_player
@@ -96,5 +96,5 @@ class TicTacToe
       puts "Cat's Game!"
     end
   end
-    
+
 end
